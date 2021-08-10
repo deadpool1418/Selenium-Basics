@@ -5,6 +5,9 @@ import static utilities.Driver.setup;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,9 +19,9 @@ public class FindingElement {
 		String urlString = getProperty("baseUrl");
 		driver.get(urlString);
 		
-		//Finding input for searching google
+//		Finding input for searching google
 		WebElement element = driver.findElement(By.name("q"));
-//		element.click();
+		element.click();
 		element.sendKeys("selenium");
 		Thread.sleep(2000);
 		//Finding search button by name

@@ -32,7 +32,7 @@ public class WikipediaTest {
 			System.out.println("TC-2 Passed");
 		}
 		else {
-			System.out.println("TC-2 Failed");
+			System.out.print("TC-2 Failed");
 		}
 //		driver.findElement(By.linkText("English")).click();
 		driver.quit();
