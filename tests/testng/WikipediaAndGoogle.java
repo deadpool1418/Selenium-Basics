@@ -30,6 +30,7 @@ public class WikipediaAndGoogle {
 		String actualTitle = driver.getTitle();
 		
 		Assert.assertEquals(expectedTitle, actualTitle);
+
 	}
 		  
 	@Test
