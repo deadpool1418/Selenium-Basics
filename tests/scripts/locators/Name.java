@@ -1,22 +1,18 @@
-package scripts;
+package scripts.locators;
 
-import static scripts.PropertyReader.getProperty;
 import static utilities.Driver.setup;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class FindingElement {
+public class Name {
 	public static void main(String[] args) throws FileNotFoundException, IOException, InterruptedException {
 		WebDriver driver = setup("CH");
-		String urlString = getProperty("baseUrl");
+		String urlString = "https://www.google.com";
 		driver.get(urlString);
 		
 		//Finding input for searching google
