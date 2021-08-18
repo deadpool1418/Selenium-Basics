@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+  	<parameter name="suite-param" value="Wikipedia"/>
+    <classes>
+      <class name="testng.BeforeTestAfterTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
