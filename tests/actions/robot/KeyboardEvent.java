@@ -1,6 +1,5 @@
 package actions.robot;
 
-import static scripts.PropertyReader.getProperty;
 import static utilities.Driver.setup;
 
 import java.awt.AWTException;
